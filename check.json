@@ -1,0 +1,25 @@
+{
+  "command": [
+    "{python}",
+    "app.py"
+  ],
+  "expected": {
+    "merged": [
+      [
+        1,
+        6
+      ],
+      [
+        9,
+        12
+      ]
+    ],
+    "coverage": 8,
+    "gaps": [
+      [
+        6,
+        9
+      ]
+    ]
+  }
+}
